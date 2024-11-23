@@ -74,5 +74,31 @@ section {
     color: #333;
 }
 
+#committees .img-fluid {
+    border-radius: 50%; /* Makes the images circular */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+#committees h4 {
+    font-weight: bold;
+    color: #333;
+}
+
+#committees p.text-muted {
+    font-size: 1rem;
+    color: #777;
+}
+
+#committees .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#committees .col-md-4 {
+    margin-bottom: 30px;
+}
+
+
 
 
