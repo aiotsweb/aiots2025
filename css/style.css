@@ -1,1 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: url('../images/banner.jpg') no-repeat center center/cover;
+    color: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 0;
+}
 
