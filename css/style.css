@@ -172,6 +172,24 @@ section {
     margin-bottom: 10px; /* Adds spacing between list items */
 }
 
+/* Guidelines Text Styling */
+.submission-guidelines {
+    font-size: 0.95rem; /* Slightly smaller than the main text */
+    line-height: 1.6; /* Space between lines for readability */
+    color: #555; /* Neutral gray color for text */
+    text-align: justify; /* Justified text alignment */
+    margin-top: 20px; /* Adds spacing between paragraphs */
+}
+
+.submission-guidelines a {
+    color: #007bff; /* Link color (blue) */
+    text-decoration: underline; /* Underlined links */
+}
+
+.submission-guidelines a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: none; /* Removes underline on hover */
+}
 
 
 
