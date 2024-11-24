@@ -190,6 +190,43 @@ section {
     color: #0056b3; /* Darker blue on hover */
     text-decoration: none; /* Removes underline on hover */
 }
+/* Organizing Committee Section */
+#committee {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+#committee h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#committee p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
+
+#committee ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#committee ul li {
+    margin-bottom: 10px;
+}
+
+#committee h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #444;
+    margin-top: 30px;
+}
 
 
 
