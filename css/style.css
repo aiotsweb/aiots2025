@@ -137,6 +137,41 @@ section {
     text-align: justify; /* Align text for better flow */
     margin-bottom: 20px;
 }
+/* Topics Section Styles */
+#topics {
+    background-color: #ffffff; /* White background */
+    padding: 50px 20px; /* Space around the section */
+}
+
+#topics h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333; /* Dark text for contrast */
+    text-align: center;
+    text-transform: uppercase; /* Optional: Uppercase heading */
+    margin-bottom: 20px;
+}
+
+#topics p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555; /* Neutral gray for text */
+    text-align: justify; /* Justifies paragraph text */
+    margin-bottom: 20px;
+}
+
+#topics ul {
+    list-style-type: disc; /* Standard bullet points */
+    padding-left: 20px; /* Indentation for list items */
+    font-size: 1rem; /* Standard font size */
+    line-height: 1.8; /* Improves readability of list items */
+    color: #555;
+}
+
+#topics ul li {
+    margin-bottom: 10px; /* Adds spacing between list items */
+}
+
 
 
 
