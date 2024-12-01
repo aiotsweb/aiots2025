@@ -4,6 +4,7 @@ body {
 }
 .banner-header {
     background: url('../images/munich_1.jpg') no-repeat center center/cover;
+    
     height: 60vh; /* Adjust the height of the banner */
     display: flex;
     align-items: center;
@@ -28,6 +29,20 @@ body {
     position: relative;
     z-index: 2;
 }
+/* Copyright Text Styling */
+.banner-header::after {
+    content: "© jotily/stock.adobe.com"; /* Copyright text */
+    position: absolute;
+    bottom: 10px; /* Position near the bottom */
+    right: 15px; /* Slightly away from the right edge */
+    font-size: 0.75rem; /* Small font size */
+    color: #fff; /* White color for visibility */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 2px 8px; /* Padding for better visibility */
+    border-radius: 5px; /* Rounded edges for aesthetics */
+    font-family: Arial, sans-serif; /* Ensure a readable font */
+}
+
 
 header {
     background: url('../images/banner.jpg') no-repeat center center/cover;
